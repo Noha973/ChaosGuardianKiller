@@ -43,7 +43,6 @@ function chaos.takeShards(cx,cz) -- breaking the chaos shards, you need to kill 
 
 end
 
-function chaos.killAllTower(cx,cz)
 	
 	move.To(cx*distToChaos-89,towerHeight+5,cz*distToChaos+21)--fly safe remember
 	move.To(cx*distToChaos-89,towerHeight,cz*distToChaos+21)
@@ -154,13 +153,6 @@ function chaos.killAllTower(cx,cz)
 	move.rotateTo(west)
 	chaos.killATower()
 	
-	move.To(cx*distToChaos-43,111+5,cz*distToChaos-11)
-	move.To(cx*distToChaos-43,111,cz*distToChaos-11)
-	move.rotateTo(south)
-	chaos.killATower()
 	
-	return true
-
-end
-
-return chaos
+	
+      
