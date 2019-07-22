@@ -157,10 +157,4 @@ function chaos.killAllTower(cx,cz)
 	move.To(cx*distToChaos-43,111+5,cz*distToChaos-11)
 	move.To(cx*distToChaos-43,111,cz*distToChaos-11)
 	move.rotateTo(south)
-	chaos.killATower()
-	
-	return true
-
-end
-
-return chaos
+       ncaca tito
